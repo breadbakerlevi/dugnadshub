@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Firebase config (lages lokalt, se README)
+firebaseConfig.ts
+
+# Env og nøkler
+.env*.local
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Logger
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Metro / TypeScript
+.metro-health-check*
+*.tsbuildinfo
+
+# macOS
+.DS_Store
